@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="My Logo" class="logo">
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#profile">Profile</a>
+            <a href="#portofolio">Portofolio</a>
+            <a href="#contact">Message Us</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <main>
+                <h1>Hi, Welcome To Website</h1>
+                <h5>About The Company</h5><br>
+                <p>
+                Welcome to NexusTech, a leading provider of innovative technology solutions.<br> Founded in 2020, our company is dedicated to empowering digital transformation through cutting-edge software development, cybersecurity, data analytics, and cloud services.
+                Our Values<br>
+                We prioritize innovation, customer-centricity, collaboration, and quality in everything we do.<br>
+                </p>
+                <h5>Vision:<br></h5>
+                <p>
+                    "Empowering Digital Transformation through Innovative Solutions"<br>
+                </p>
+                <h5>Mission:<br></h5>
+                <p>
+                    "To deliver cutting-edge technology solutions that drive business growth,<br> enhance customer experiences, and foster a culture of innovation and collaboration,<br> while upholding the highest standards of quality, reliability, and integrity."
+                </p>
+                <div class="image-container">
+                    <img src="keyboard.jpg" alt="cover" class="cover">
+                    <div class="overlay"></div>
+        </main>
+    </section>
+
+    <!-- Profile Section -->
+    <section id="profile">
+        <main>
+            <h1>My Profile</h1>
+                <img src="myphoto.jpg" alt="photo" class="photo">
+                <a>
+                <h3>Nabilah Robbaniyah</h3>
+                <p>My name is Nabilah, and I am an enthusiastic prospective student with a strong interest in Information Technology. I have always been fascinated by the world of technology and its endless possibilities. I gained some experience in software development and coding. I am passionate about problem solving and enjoy working collaboratively on innovative projects.</p>
+                </a>
+            </div>
+        </main>
+    </section>
+
+    <!-- Portofolio Section -->
+    <section id="portofolio">
+        <main>
+            <h1>Portofolio</h1>
+            <img src="portofolio.jpg" alt="portofolio" class="portofolio">
+        </main>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <main>
+            <div class="form-container">
+                <div class="form-left">
+                    <h2>Message Us</h2>
+                    <form id="contactForm">
+                        <label for="name">Nama:</label>
+                        <input type="text" id="name" name="name">
+                        <label for="dob">Tanggal Lahir:</label>
+                        <input type="date" id="dob" name="dob">
+                        <label for="gender">Jenis Kelamin:</label>
+                        <input type="radio" id="male" name="gender" value="Laki-Laki"> Laki-Laki
+                        <input type="radio" id="female" name="gender" value="Perempuan"> Perempuan
+                        <label for="message">Pesan:</label>
+                        <textarea id="message" name="message"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+                <div class="form-right">
+                    <h2>Submitted Data</h2>
+                    <p>Current time: <span id="current-time"></span></p>
+                    <p>Nama: <span id="submitted-name"></span></p>
+                    <p>Tanggal Lahir: <span id="submitted-dob"></span></p>
+                    <p>Jenis Kelamin: <span id="submitted-gender"></span></p>
+                    <p>Pesan: <span id="submitted-message"></span></p>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
